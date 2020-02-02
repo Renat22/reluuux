@@ -1,46 +1,21 @@
-<!DOCTYPE html>
-<html ng-app="scotchApp">
-
-<head>
-  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
-  <link rel="stylesheet" href="/style/css/style.css">
-
-  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
-
-  <script src="script.js"></script>
-  <base href="/content/" />
-</head>
-
-<!-- define angular controller -->
-<body ng-controller="mainController">
-
-  <nav class="navbar navbar-default">
-    <div class="container">
-      <div class="navbar-header">
-        <a class="navbar-brand">Angular Routing Example</a>
-      </div>
-
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="dashboard">DASHBOARD</a></li>
-        <li><a href="task_money">ЗАРАБОТОК</a></li>
-      </ul>
-    </div>
-  </nav>
-
-	<div style="display: flex;">
-		<div class="menu-site">
-			<a href="dashboard">dashboard</a>
-			<a href="add_task">add task</a>
-			<a href="my_task">my task</a>
-		</div>
-		 <div id="main">
-		    <div ng-view></div>
-		</div>
-	</div>
-  
-  <footer class="text-center"><p>HEADER</p></footer>
-  
-</body>
-</html>
+<div style="text-align: center;margin: 40px;">
+	<h1>страница 3 (MY TASK)</h1>
+	Видеооо:<br>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/VEcAAUEQ6rs?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<br><br>
+	<i class="fab fa-500px"></i>
+	<i class="fab fa-500px"></i>
+	<i class="fab fa-500px"></i>
+	<i class="fab fa-500px"></i>
+	<i class="fab fa-500px"></i>
+	<i class="fab fa-500px"></i>
+	<i class="fab fa-500px"></i>
+	<i class="fab fa-500px"></i>
+	<i class="fab fa-500px"></i>
+	<i class="fab fa-500px"></i>
+	<i class="fab fa-500px"></i>
+	<i class="fab fa-500px"></i>
+	<br><br>
+	<img src="https://s00.yaplakal.com/pics/pics_original/5/3/3/13224335.jpg" style="width: 560px;"></p>
+	<script>document.title = "my_task";</script>
+</div>
